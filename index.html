@@ -18,20 +18,22 @@
     <header>
       <h1>lista de tarefas</h1>
     </header>
-    <section id="containerListaTarefas">
-      <div class="addTarefa">
-        <input
-          type="text"
-          placeholder="descreva sua tarefa:"
-          id="textoTarefa"
-        />
-        <button id="add">
-          <img src="add.png" alt="adicionar" />
-          <div class="tooltip">Adicionar tarefa</div>
-        </button>
+    <div id="container">
+      <div id="containerListaTarefas">
+        <div class="addTarefa">
+          <input
+            type="text"
+            placeholder="descreva sua tarefa:"
+            id="textoTarefa"
+          />
+          <button id="add">
+            <img src="add.png" alt="adicionar" />
+            <div class="tooltip">Adicionar tarefa</div>
+          </button>
+        </div>
+        <div id="listaTarefas"></div>
       </div>
-      <div id="listaTarefas"></div>
-    </section>
+    </div>
 
     <script src="js/criaTarefa.js"></script>
     <script src="js/eventoDinamico.js"></script>
