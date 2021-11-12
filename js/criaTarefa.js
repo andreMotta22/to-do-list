@@ -30,7 +30,7 @@ function criaBox(
   tarefaConcluida = ["data-tarefaConcluida", "false"]
 ) {
   const containerTarefas = document.querySelector("#listaTarefas");
-  let tarefa = document.createElement("div");
+  let tarefa = document.createElement("li");
   tarefa.classList.add("tarefa");
   tarefa.setAttribute(tarefaConcluida[0], tarefaConcluida[1]);
   tarefa.innerHTML = `<p>${texto}</p><div class="acoes">
